@@ -59,6 +59,8 @@ export const allowedNetworks: { [chainId: number]: chains.Chain } = {
   [chains.unichainSepolia.id]: chains.unichainSepolia,
   [chains.abstractTestnet.id]: chains.abstractTestnet,
   [chains.abstract.id]: chains.abstract,
+  [chains.linea.id]: chains.linea,
+  [chains.zircuit.id]: chains.zircuit,
 };
 
 Object.keys(contractNetworks).map((network) => {

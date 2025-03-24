@@ -84,6 +84,14 @@ const signTx = async ({
   if (!txn) {
     throw new Error("No txn");
   }
+  // NOTE: Added by DeFiFoFum to validate tx data
+  console.dir(
+    {
+      txn,
+    },
+    { depth: 5 }
+  );
+
   // const executedTxn = await safe.executeTransaction(txn);
   // const response = await executedTxn.transactionResponse?.wait();
   const txHash = await safe.getTransactionHash(txn);
