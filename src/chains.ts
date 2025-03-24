@@ -59,6 +59,7 @@ export const allowedNetworks: { [chainId: number]: chains.Chain } = {
   [chains.unichainSepolia.id]: chains.unichainSepolia,
   [chains.abstractTestnet.id]: chains.abstractTestnet,
   [chains.abstract.id]: chains.abstract,
+  [chains.polygon.id]: chains.polygon,
   [chains.linea.id]: chains.linea,
   [chains.zircuit.id]: chains.zircuit,
 };
